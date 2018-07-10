@@ -1,6 +1,6 @@
 # Ion-trap Tomography with experiment data
 tomo_expr.py: general API for tomography\
-data.pkl: experiment data\
+data.pkl: experiment data
 
 choose one from two:\
 (1).Traditional methods
