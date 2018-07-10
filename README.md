@@ -1,6 +1,7 @@
 # Ion-trap Tomography with experiment data
 tomo_expr.py: general API for tomography\
 data.pkl: experiment data\
+
 choose one from two:\
 (1).Traditional methods
 * curve_fit_class.py: class of traditional curve fitting methods for estimation of Rabi oscillation curve parameters 
@@ -12,8 +13,8 @@ choose one from two:\
 
 
 choose one from two:\
-(1).[Maximum Likelihood method](https://arxiv.org/abs/1605.05039)
+(1).[Maximum Likelihood methods](https://arxiv.org/abs/1605.05039)
 * measure.py: class of tomography functions
 
-(2).[iteration method](https://arxiv.org/abs/quant-ph/0009093)
-* ite.py: using  instead of  in measure.py for tomography
+(2).[Iteration methods](https://arxiv.org/abs/quant-ph/0009093)
+* ite.py: using  instead of in measure.py for tomography
